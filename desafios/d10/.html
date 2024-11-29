@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Responsividade</title>
+    <style>
+        /* Estilos para o corpo da página */
+        body {
+            background-color: grey;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Estilos para a área principal */
+        main {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            width: 90%; /* Ajusta a largura para 90% da tela */
+            max-width: 800px; /* Largura máxima de 800px */
+            margin: 20px auto; /* Centraliza a área principal e adiciona margem */
+            min-width: 459px;
+        }
+
+        /* Estilos para imagens */
+        img {
+            width: 100%;
+            height: auto; /* Ajusta a altura da imagem proporcionalmente */
+        }
+
+        /* Consultas de mídia para telas pequenas (dispositivos móveis) */
+        @media (max-width: 600px) {
+            main {
+                width: 95%; /* Aumenta a largura do main em telas menores */
+            }
+
+            h1 {
+                font-size: 1.5em; /* Ajusta o tamanho da fonte para o título */
+            }
+
+            p {
+                font-size: 0.9em; /* Reduz o tamanho do texto para telas pequenas */
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Teste de responsividade</h1>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi voluptas placeat iste suscipit repellendus odit dolorem harum dignissimos ipsum nesciunt ratione, eius, repudiandae exercitationem eligendi, obcaecati nobis doloremque doloribus officia. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus hic tempore repellat cupiditate sint porro sapiente inventore dicta iure? Velit numquam maiores vitae repellendus non temporibus nisi porro omnis quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ea expedita quos iusto, distinctio dolor soluta, ipsa ipsam, magni consequuntur quibusdam a quia dolorem accusantium temporibus saepe explicabo voluptates harum?</p>
+        <picture>
+            <source media="(max-width: 600px)" srcset="imagens/irina-blok-pq.jpg">
+            <img src="imagens/irina-blok.jpg" alt="irina block">
+        </picture>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam eaque minima eligendi, quaerat eveniet quidem, mollitia reiciendis nesciunt consequuntur, nobis obcaecati optio dolores. Laboriosam earum illo ut minus, error accusamus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, est tempora optio, iure eaque minima voluptates ipsam incidunt ullam, vero possimus. Excepturi quod ducimus, fugiat omnis ex nobis. Quod, sit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus obcaecati perspiciatis hic nemo consectetur totam doloribus, soluta velit itaque quo! Incidunt fuga et obcaecati delectus repudiandae. Laudantium quam ut nobis.</p>
+    </main>
+</body>
+</html>

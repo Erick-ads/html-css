@@ -1,0 +1,65 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: dimgray;
+    margin: 0px;
+}
+h1{
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.459);
+}
+header{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+main{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 7px;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 4px;
+    margin: 0px;
+}
+footer > p{
+    margin: 0px
+}
+article{
+    background-color: lightgreen;
+    padding: 5px;
+}
+article > aside{
+    background-color: rgb(168, 124, 131);
+}
+nav{
+    background-color: rgb(71, 113, 71);
+    padding: 3px;
+    box-shadow: 1px 1px 1px #000000a1 ;
+
+}
+nav > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin: 30px;
+}
+nav:hover > a{
+    text-decoration: underline;
+    color: rgb(53, 105, 238);
+}
+nav:active > .site{
+    color: rgb(12, 12, 46);
+}
+.site{
+    color: #521b88;
+}
+aside{
+    font-size: 10px;
+    
+}
+#noticias{
+    box-shadow: 2px 2px 4px 1px #0000007a;
+}

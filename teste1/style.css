@@ -1,0 +1,45 @@
+
+body{
+    background-image: linear-gradient(to right, #8cb8e0, #7fa8cd);
+}
+main{
+    background-color: white;
+    padding: 8px;
+    width: 600px;
+    margin: auto;
+    box-shadow: 8px 8px 8px #275073b4;
+    border-radius: 5px;
+}
+#principal{
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+    text-shadow: 1px 1px 1px #1e3859ce;
+    color: #1E3859;
+    text-align: center;
+}
+p{
+    text-align: justify;
+    text-indent: 30px;
+}
+h2{
+    color: #274F73;
+    text-shadow: 1px 1px 1px #275073c1;
+    font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+.pagina{
+    text-align: end;
+}
+div:hover{
+    color: red;
+}
+div > p{
+    display: none;
+}
+div:hover > p{
+    display: block;
+}
