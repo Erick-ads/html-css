@@ -176,7 +176,7 @@ aside > h3{
 }
 ul{
     list-style-type: '🗸';    /*list-style-type: '🗸';=simbolo da lista trocando a bolinha */
-     list-style-position: inside;   /*list-style-position: inside;=colocando as bolinha pra dentro do aside */
+    list-style-position: inside;   /*list-style-position: inside;=colocando as bolinha pra dentro do aside */
     columns: 2;                         /*columns 2=duas colunas*/
     font-weight: 600px;
 }
